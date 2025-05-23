@@ -1,0 +1,65 @@
+[
+    {
+      "scenarioLabel": "Leave Application",
+      "scenarioExplanation": "Used when an employee applies for leave or requests time off.",
+      "responseTemplate": "Thank you for your leave request. We encourage you to apply the leaves in the leave portal, which will further be approved by your supervisor or manager. If the decision is not updated within 5 business days, we will then look at the request and approve accordingly.\nBest regards,\nHR Team",
+      "followupTemplate": "Thank you for following up on your leave request. We’ve noted your message and will respond shortly if anything is pending.\nBest regards,\nHR Team"
+    },
+    {
+      "scenarioLabel": "Job Inquiry",
+      "scenarioExplanation": "Used when someone is inquiring about job openings or application status.",
+      "responseTemplate": "Thank you for your interest in the job opportunity at our company. We appreciate your inquiry. We will review your profile and contact you if there's a suitable opening.\nBest regards,\nHR Team",
+      "followupTemplate": "Thanks again for your interest in working with us. We will reach out soon with any relevant updates.\nBest regards,\nHR Team"
+    },
+    {
+      "scenarioLabel": "Onboarding Question",
+      "scenarioExplanation": "Used when a new hire asks about onboarding tasks, documents, or training.",
+      "responseTemplate": "We’re glad to assist with your onboarding. Please make sure you've submitted the required documents and completed your initial tasks in the onboarding portal. Let us know if you need help.\nBest regards,\nHR Team",
+      "followupTemplate": "We’ve noted your onboarding follow-up. Our onboarding team will be in touch shortly with the necessary guidance.\nBest regards,\nHR Team"
+    },
+    {
+      "scenarioLabel": "Complaint or Dispute",
+      "scenarioExplanation": "Used for concerns, conflicts, or workplace grievances.",
+      "responseTemplate": "We take your concerns seriously. Your message has been escalated to the appropriate HR personnel for review. We will follow up with you as soon as possible.\nBest regards,\nHR Team",
+      "followupTemplate": "We’ve recorded your follow-up regarding the grievance. A dedicated HR member will reach out soon.\nBest regards,\nHR Team"
+    },
+    {
+      "scenarioLabel": "Training Request",
+      "scenarioExplanation": "Used when an employee asks for training or learning resources.",
+      "responseTemplate": "Thank you for your interest in professional development. We’ve received your training request and will evaluate it in line with our current training offerings and policies.\nBest regards,\nHR Team",
+      "followupTemplate": "Thank you for the follow-up on your training request. We’re still reviewing it and will provide updates shortly.\nBest regards,\nHR Team"
+    },
+    {
+      "scenarioLabel": "General HR Query",
+      "scenarioExplanation": "Used when the query is general in nature, such as policies, procedures, documents or benefits.",
+      "responseTemplate": "Thank you for reaching out to HR. Please take a look at the employee handbook for the company policies and benefits. If you have any further questions, please reach out to us again, we will get back to you shortly with the relevant information or next steps.\nBest regards,\nHR Team",
+      "followupTemplate": "Thank you for following up. We’re reviewing your request and will provide the needed information soon.\nBest regards,\nHR Team"
+    },
+    {
+      "scenarioLabel": "Other",
+      "scenarioExplanation": "Default fallback for uncategorized messages.",
+      "subScenarios": [
+        {
+            "keywords": ["update", "status", "follow up"],
+            "responseTemplate": "Thank you for following up. We’ll review your application and get back to you shortly.\n\nBest regards,\nHR Team"
+        }, 
+        {
+            "keywords": ["clarify", "confused", "not sure", "need more info"],
+            "responseTemplate": "Thank you for your question. We will get back to you shortly with more clarity on the matter."
+        },
+        {
+            "keywords": ["error", "issue", "not working"],
+            "responseTemplate": "We're sorry to hear you're experiencing issues. Please provide more details so we can assist further."
+        },
+        {
+          "keywords": ["thank you", "appreciate", "thanks", "grateful"],
+          "responseTemplate": "You're welcome! We're glad we could help. Let us know if you have any further questions.\n\nBest regards,\nHR Team"
+        },
+        {
+          "keywords": [],
+          "responseTemplate": "Thank you for reaching out. We will review your message and respond as soon as possible."
+        }
+      ]
+    }
+  ]
+  
